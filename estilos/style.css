@@ -1,0 +1,80 @@
+.contenedor{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-areas: "header header"
+                            "nav nav"
+                            "contenido ads"
+                            "footer footer" ;
+}
+.contenedor .header{
+    background-color: rgb(255, 255, 255);
+    grid-area: header ;
+    text-align: center;
+    color: rgb(121, 7, 7);
+}
+.contenedor .nav{
+    background-color: rgb(255, 255, 255);
+    grid-area: nav ;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.container-fluid{
+    background-color: #b69191;
+    
+}
+
+.contenedor .contenido{
+    background-color: rgb(255, 255, 255);
+    grid-area: contenido ;
+   
+}
+.contenedor .ads{
+    background-color: rgb(255, 255, 255);
+    grid-area: ads;
+    align-items: center;
+    padding: 20px;
+    padding: 20px;
+    margin-left: 15px;
+   
+}
+.card{
+  margin: 10px;
+}
+.accordion{
+    background-color: #7c6161;
+    padding: 20px;
+}
+.contenedor .footer{
+    background-color: rgb(124, 112, 112);
+    grid-area: footer ;
+    margin-top: 10px;
+}
+.footer {
+    background-color: #343a40; /* Fondo oscuro elegante */
+    color: #000000;
+  }
+
+  .footer a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+
+  .footer-bottom {
+    background-color: #23272b;
+    padding: 10px 0;
+    text-align: center;
+  }
+
